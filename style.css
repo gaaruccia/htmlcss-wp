@@ -103,17 +103,41 @@ img{
 footer{
   background-color: white;
   margin-top: 24px;
-  clear: both;
+  height: 500px;
+  position: relative;
 }
 .h3_footer{
   padding: 12px;
 }
-.footer{
+.footer_div{
   float: left;
-  width: 20%;
   background-color: white;
-  font-size: 12px;
+  font-size: 15px;
+  width: 25%;
+  margin-bottom: 60px;
 }
 .footer_li{
   padding: 12px;
+  background-color: white;
+}
+#footer_info{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+}
+#footer_p{
+  text-align: center;
+}
+#icone{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  text-align: center;
+}
+footer::after{
+  content: "";
+  display: table;
+  clear:both;
 }
