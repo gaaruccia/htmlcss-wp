@@ -1,0 +1,119 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(img/sfondo.png);
+}
+#contenitore{
+  max-width: 1280px;
+  margin: 0px auto 0px;
+  padding: 0px 48px;
+}
+header{
+  margin-bottom: 20px;
+}
+#header{
+  position: relative;
+  background-image: url(img/header.jpg);
+  height: 200px;
+  display: block;
+}
+h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  color: white;
+  font-size: 50px;
+}
+#demo{
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 70%);
+}
+#navigation{
+  position: relative;
+  display: block;
+  background-color: #504741;
+  color: #999999;
+  height: 50px;
+}
+#menu{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.menuli{
+  display: inline-block;
+  border-right: solid 1px black;
+  font-size: 20px;
+  color: rgba(255, 255, 255, .7);
+  padding: 0px 12px;
+}
+main::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+#widget_left{
+  float: left;
+  margin-right: 5%;
+  width: 20%;
+}
+.widget_left{
+  padding: 24px;
+  background-color: white;
+  margin-bottom: 24px;
+}
+.widget_left_li{
+  padding: 5px;
+}
+ul{
+  list-style: none;
+}
+#center{
+  float: left;
+  margin-right: 5%;
+  width: 45%;
+}
+.center{
+  background-color: white;
+  border-bottom: solid 2px grey;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+img{
+  width: 100%;
+}
+#widget_right{
+  float: left;
+  width: 25%;
+}
+.widget_right{
+  padding: 24px;
+  background-color: white;
+  margin-bottom: 24px;
+}
+footer{
+  background-color: white;
+  margin-top: 24px;
+  clear: both;
+}
+.h3_footer{
+  padding: 12px;
+}
+.footer{
+  float: left;
+  width: 20%;
+  background-color: white;
+  font-size: 12px;
+}
+.footer_li{
+  padding: 12px;
+}
